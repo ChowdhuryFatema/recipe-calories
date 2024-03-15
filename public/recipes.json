@@ -1,0 +1,100 @@
+[
+  {
+    "recipe_id": 5,
+    "recipe_name": "Banana Smoothie",
+    "short_description": "Creamy and refreshing smoothie with bananas.",
+    "ingredients": [
+      "2 ripe bananas",
+      "1 cup milk or almond milk",
+      "1/2 cup Greek yogurt",
+      "1 tablespoon honey",
+      "1/2 teaspoon vanilla extract",
+      "Ice cubes (optional)"
+    ],
+    "preparing_time": "5",
+    "calories": "220",
+    "recipe_image": "https://i.ibb.co/dMK0czH/banana-juice.jpg"
+  },
+  
+  {
+    "recipe_id": 6,
+    "recipe_name": "Egg Salad Sandwich",
+    "short_description": "Classic sandwich filling made with hard-boiled eggs.",
+    "ingredients": [
+      "6 hard-boiled eggs, chopped",
+      "1/4 cup mayonnaise",
+      "1 tablespoon Dijon mustard",
+      "2 tablespoons chopped green onions",
+      "Salt and pepper to taste",
+      "Lettuce leaves",
+      "Bread slices"
+    ],
+    "preparing_time": "15",
+    "calories": "280",
+    "recipe_image": "https://i.ibb.co/0FRCyG1/sandwich.jpg"
+  },
+  {
+    "recipe_id": 1,
+    "recipe_name": "Classic Tomato Soup",
+    "short_description": "Comforting and delicious tomato soup.",
+    "ingredients": [
+      "800 g ripe tomatoes, chopped",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "2 cups vegetable broth",
+      "2 tablespoons olive oil",
+      "Salt and pepper to taste"
+    ],
+    "preparing_time": "30",
+    "calories": "150",
+    "recipe_image": "https://i.ibb.co/GcC1F0z/download.jpg"
+  },
+
+  {
+    "recipe_id": 3,
+    "recipe_name": "Avocado Toast",
+    "short_description": "Healthy and satisfying avocado toast.",
+    "ingredients": [
+      "2 slices whole grain bread",
+      "1 ripe avocado",
+      "1 lemon, juiced",
+      "Salt and pepper to taste",
+      "Optional toppings: cherry tomatoes, feta cheese, red pepper flakes"
+    ],
+    "preparing_time": "10",
+    "calories": "200",
+    "recipe_image": "https://i.ibb.co/YRCrZgL/avocado-toast.jpg"
+  },
+  {
+    "recipe_id": 4,
+    "recipe_name": "Mediterranean Chickpea Salad",
+    "short_description": "Refreshing and nutritious salad with chickpeas.",
+    "ingredients": [
+      "1 cucumber, diced",
+      "1 bell pepper, diced",
+      "1/4 cup chopped red onion",
+      "2 tablespoons olive oil",
+      "2 tablespoons lemon juice",
+      "1 teaspoon dried oregano"
+    ],
+    "preparing_time": "15",
+    "calories": "180",
+    "recipe_image": "https://i.ibb.co/LdL8ryk/mix-salad.jpg"
+  },
+  {
+    "recipe_id": 2,
+    "recipe_name": "Pasta Aglio e Olio",
+    "short_description": "Simple and flavorful garlic and olive oil pasta.",
+    "ingredients": [
+      "300 g spaghetti",
+      "4 cloves garlic, thinly sliced",
+      "1/4 cup extra virgin olive oil",
+      "Red pepper flakes, to taste",
+      "Chopped parsley for garnish",
+      "Salt to taste"
+    ],
+    "preparing_time": "20",
+    "calories": "250",
+    "recipe_image": "https://i.ibb.co/JpsP3k2/garlic-pasta.jpg"
+  }
+]
