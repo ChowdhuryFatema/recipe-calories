@@ -33,9 +33,9 @@ const Recipes = () => {
 
     return (
         <div className="container mx-auto max-w-[1180px] px-5">
-            <div>
-                <h2>Our Recipes</h2>
-                <p>Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
+            <div className="my-12 *:text-center space-y-5">
+                <h2 className="font-semibold text-2xl md:text-3xl lg:text-4xl">Our Recipes</h2>
+                <p className="w-full md:w-4/5 lg:w-3/5 mx-auto text-[#150B2B99]">Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
                 <div className="col-auto lg:col-span-7">

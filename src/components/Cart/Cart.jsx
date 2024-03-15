@@ -31,7 +31,7 @@ const Cart = ({ carts, handlePreparing}) => {
                                 <td>
 
 
-                                <button onClick={() => handlePreparing(recipe_id)} className=' btn me-3 text-white rounded-full bg-red-500 hover:bg-red-600 min-h-9 h-0'>Preparing</button>
+                                <button onClick={() => handlePreparing(recipe_id)} className='btn me-0 md:me-3 text-white rounded-full bg-red-500 hover:bg-red-600 min-h-9 h-0'>Preparing</button>
                                 </td>
                             </tr>
                         )
