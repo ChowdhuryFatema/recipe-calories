@@ -20,10 +20,10 @@ const Header = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 *:text-lg">
-                        <li><a>Home</a></li>
-                        <li><a>Recipes</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Search</a></li>
+                        <li><a className="font-semibold duration-500 hover:text-red-500 hover:bg-transparent">Recipes</a></li>
+                        <li><a className="font-semibold duration-500 hover:text-red-500 hover:bg-transparent">Home</a></li>
+                        <li><a className="font-semibold duration-500 hover:text-red-500 hover:bg-transparent">About</a></li>
+                        <li><a className="font-semibold duration-500 hover:text-red-500 hover:bg-transparent">Search</a></li>
                     </ul>
                 </div>
                 <div className="navbar-end">

@@ -9,6 +9,9 @@ const Recipes = () => {
 
      const [recipes, setRecipes] = useState([]);
      const [carts, setCarts] = useState([]);
+     const [preparing, setPreparing] = useState([]);
+     const [totalTime, setTotalTime] = useState(0);
+     const [totalCalories, setCalories] = useState(0);
 
      useEffect(() => {
         fetch('./recipes.json')
@@ -26,9 +29,14 @@ const Recipes = () => {
         }
     }
 
-    const handlePreparing = (id) => {
+    const handlePreparing = (id, prepare) => {
         const newCart = carts.filter(cart => cart.recipe_id !== id)
         setCarts(newCart)
+        setPreparing([...preparing, prepare])
+        const prepareingTime  = parseInt(prepare.preparing_time);
+        setTotalTime(totalTime + prepareingTime)
+        const caloriesNum = parseInt(prepare.calories)
+        setCalories(totalCalories + caloriesNum)
     }
 
     return (
@@ -50,7 +58,12 @@ const Recipes = () => {
                     </div>
                 </div>
                 <div className="col-auto lg:col-span-5">
-                   <Cart carts={carts} handlePreparing={handlePreparing}></Cart>
+                   <Cart 
+                   carts={carts}  
+                   handlePreparing={handlePreparing}
+                   totalTime={totalTime} 
+                   preparing={preparing} 
+                   totalCalories={totalCalories}></Cart>
                 </div>
             </div>
         </div>
