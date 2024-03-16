@@ -7,7 +7,7 @@ const Banner = () => {
                 <div className="hero-content text-center text-neutral-content">
                     <div className="w-full md:w-4/5 lg:w-2/3 space-y-8">
                         <h1 className="mb-5 text-2xl md:text-4xl lg:text-5xl font-bold text-white leading-[40px] md:leading-[50px] lg:leading-[65px]">Discover an exceptional cooking class tailored for you!</h1>
-                        <p className="mb-5">Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
+                        <p className="mb-5">Embark on a culinary journey like no other with our bespoke cooking classes, curated just for you, to refine your skills and tantalize your taste buds. Experience the joy of creating delectable dishes in a personalized setting tailored to your preferences.</p>
 
                         <button className="btn bg-red-500 mr-2 md:mr-5 hover:bg-red-600 px-5 text-white  text-sm md:text-lg rounded-full border-0 duration-500">Explore Now</button>
 
