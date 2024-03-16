@@ -30,7 +30,6 @@ const Recipe = ({ recipe, handleWantToCook}) => {
                     <button onClick={() => handleWantToCook(recipe)} className="btn bg-red-500 hover:bg-red-600 px-5 text-white text-lg rounded-full">Want to Cook</button>
                 </div>
 
-
             </div>
         </div>
     );

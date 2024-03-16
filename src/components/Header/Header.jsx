@@ -16,7 +16,7 @@ const Header = () => {
                             <li><a>Search</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-2xl hover:bg-transparent font-bold">Recipe Calories</a>
+                    <a className="btn gap-0 btn-ghost text-2xl hover:bg-transparent font-bold">Recipe &nbsp;<span className='text-red-500 gap-0'>C</span>alories</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 *:text-lg">

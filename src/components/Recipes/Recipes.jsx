@@ -23,16 +23,19 @@ const Recipes = () => {
         const isExists = carts.find(c => c.recipe_id == cart.recipe_id)
         if(!isExists){
             setCarts([...carts, cart])
+            toast.success("Successfully Added")
         }
         else{
-            toast("Already exist")
+            toast.warn("Already exist")
         }
     }
 
     const handlePreparing = (id, prepare) => {
         const newCart = carts.filter(cart => cart.recipe_id !== id)
         setCarts(newCart)
+        toast.success("Added For Preparing")
         setPreparing([...preparing, prepare])
+
         const prepareingTime  = parseInt(prepare.preparing_time);
         setTotalTime(totalTime + prepareingTime)
         const caloriesNum = parseInt(prepare.calories)
@@ -47,7 +50,7 @@ const Recipes = () => {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
                 <div className="col-auto lg:col-span-7">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                     {
                         recipes.map(recipe => <Recipe 
                         key={recipe.recipe_id}
