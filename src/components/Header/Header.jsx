@@ -1,4 +1,4 @@
-
+import User from '/images/user.jpg';
 
 const Header = () => {
     return (
@@ -20,15 +20,15 @@ const Header = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 *:text-lg">
-                        <li><a className="font-semibold duration-500 hover:text-red-500 hover:bg-transparent">Recipes</a></li>
                         <li><a className="font-semibold duration-500 hover:text-red-500 hover:bg-transparent">Home</a></li>
+                        <li><a className="font-semibold duration-500 hover:text-red-500 hover:bg-transparent">Recipes</a></li>
                         <li><a className="font-semibold duration-500 hover:text-red-500 hover:bg-transparent">About</a></li>
                         <li><a className="font-semibold duration-500 hover:text-red-500 hover:bg-transparent">Search</a></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
                     <div className="flex gap-2">
-                        <div className="form-control">
+                        <div className="form-control me-3">
                             <label className="hidden input rounded-full md:flex items-center gap-2 bg-[#150B2B0D]">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70"><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd" /></svg>
                                 <input type="text" className="grow" placeholder="Search" />
@@ -36,8 +36,8 @@ const Header = () => {
                         </div>
                         <div className="dropdown dropdown-end">
                             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-                                <div className="w-10 rounded-full">
-                                    <img alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                <div className="rounded-full">
+                                    <img className='rounded-full ' alt="Tailwind CSS Navbar component" src={User} />
                                 </div>
                             </div>
                             <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
