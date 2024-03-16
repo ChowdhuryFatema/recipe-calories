@@ -6,7 +6,7 @@ const Banner = () => {
             <div className="hero py-12 md:py-20 lg:py-24 bg-no-repeat bg-cover bg-center rounded-2xl">
                 <div className="hero-content text-center text-neutral-content">
                     <div className="w-full md:w-4/5 lg:w-2/3 space-y-5">
-                        <h1 className="mb-5 text-2xl md:text-4xl lg:text-5xl font-bold text-white leading-[40px] md:leading-[50px] lg:leading-[65px]">Discover an exceptional cooking class tailored for you!</h1>
+                        <h1 className="mb-5 text-2xl md:text-4xl lg:text-5xl font-bold text-white leading-[30px] md:leading-[50px] lg:leading-[65px]">Discover an exceptional cooking class tailored for you!</h1>
                         <p className="pb-5">
                         Experience the art of cooking like never before with our customized classes, crafted to cater to your unique preferences and elevate your culinary expertise.</p>
 

@@ -11,9 +11,9 @@ const Footer = () => {
               </h2>
               <ul className="*:inline-block space-x-8 font-thin opacity-80 text-white space-y-2">
                 <li><a>Home</a></li>
-                <li><a>About Us</a></li>
-                <li><a>Shop</a></li>
-                <li><a>All Fruits</a></li>
+                <li><a>Recipes</a></li>
+                <li><a>About</a></li>
+                <li><a>Search</a></li>
               </ul>
               <div className="*:inline-block *:size-8 space-x-4">
                 <FaTwitter className="text-white"/>
@@ -23,9 +23,6 @@ const Footer = () => {
               </div>
             </div>
         </footer>
-
-
-
     );
 };
 
