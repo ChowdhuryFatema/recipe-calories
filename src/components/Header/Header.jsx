@@ -2,7 +2,7 @@ import User from '/images/user.jpg';
 
 const Header = () => {
     return (
-        <div className="container mx-auto max-w-[1180px] px-5">
+        <div className="container mx-auto max-w-[1280px] px-5">
             <div className="navbar bg-base-100 my-4">
                 <div className="navbar-start">
                     <div className="dropdown">

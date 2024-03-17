@@ -43,7 +43,7 @@ const Recipes = () => {
     }
 
     return (
-        <div className="container mx-auto max-w-[1180px] px-5">
+        <div className="container mx-auto max-w-[1280px] px-5">
             <div className="my-12 *:text-center space-y-5">
                 <h2 className="font-semibold text-2xl md:text-3xl lg:text-4xl">Our Recipes</h2>
                 <p className="w-full md:w-4/5 lg:w-3/5 mx-auto text-[#150B2B99]">Embark on a flavorful journey with our diverse collection of meticulously crafted recipes, igniting your passion for cooking and satisfying every craving.</p>
